@@ -1,5 +1,5 @@
 # vscode-vim-settings
-
+```
 {
     "editor.fontLigatures": true,
     "vim.easymotion": true,
@@ -38,3 +38,4 @@
       "<C-f>": false,
     } 
 }
+```
