@@ -1,7 +1,6 @@
 # vscode-vim-settings
 ```
 {
-    "editor.fontLigatures": true,
     "vim.easymotion": true,
     "vim.sneak": true,
     "vim.incsearch": true,
