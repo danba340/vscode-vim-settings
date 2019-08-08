@@ -19,8 +19,8 @@
     ],
     "vim.visualModeKeyBindings": [
       {
-        "before": ["i", "i"],
-        "after": ["<Esc>"]
+        "before": ["i"],
+        "after": ["<Esc>", "i"]
       },
       {
         "before": ["<C-q>"],
