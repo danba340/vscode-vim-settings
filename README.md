@@ -17,11 +17,6 @@ Alt + Down|Alt + j|
       {
         "before": ["j", "j"],
         "after": ["<Esc>"]
-      },
-      // Ctrl + q to escape
-      {
-        "before": ["<C-q>"],
-        "after": ["<Esc>"]
       }
     ],
     // Visual mode
@@ -30,20 +25,9 @@ Alt + Down|Alt + j|
       {
         "before": ["i"],
         "after": ["<Esc>", "i"]
-      },
-      // Ctrl + q to escape
-      {
-        "before": ["<C-q>"],
-        "after": ["<Esc>"]
       }
     ],
-    "vim.normalModeKeyBindingsNonRecursive": [
-      // Ctrl + q to escape
-      {
-        "before": ["<C-q>"],
-        "after": ["<Esc>"]
-      }
-    ],
+    // Escaping from vim for below commands
     "vim.handleKeys": {
       // Select all
       "<C-a>": false,
