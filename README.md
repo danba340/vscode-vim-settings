@@ -1,14 +1,14 @@
 # vscode-vim-settings
-```
-Apart from these settings i change Alt + UP to Alt + k and Alt + DOWN to Alt + j in VS Code keyboard mapping
-{
-    "vim.easymotion": true,
-    "vim.sneak": true,
-    "vim.incsearch": true,
-    "vim.hlsearch": true,
-    
-    // My settings start here
-    
+
+### Apart from below settings i also change in VS Code keyboard mappings:
+From      |To     |
+----------|-------|
+Alt + UP  |Alt + k|
+Alt + Down|Alt + j|
+
+```javascript
+
+{    
     "vim.useCtrlKeys": true,
     "vim.useSystemClipboard": true,
     // Insert mode
